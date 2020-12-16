@@ -110,6 +110,15 @@ declare module 'react-native-progress' {
     borderRadius?: number;
 
     /**
+     * Rounding of fill corners, set to `0` to disable.
+     *
+     * @type {number}
+     * @memberof BarPropTypes
+     * @default 0
+     */
+    fillRadius?: number;
+
+    /**
      * Use native driver for the animations.
      *
      * @type {boolean}
